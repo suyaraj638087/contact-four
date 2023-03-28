@@ -1,0 +1,232 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.contact{
+	background-color:#e6faff;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+.row{
+	display:flex;
+}
+.col1{
+	width:30%;
+}
+.col2{
+	width:20%;
+}
+.card{
+	padding-top:3rem;
+	padding-right:3rem;
+	
+}
+.card3{
+	padding-top:3rem;
+	padding-left:6rem;
+}
+.card2{
+	padding-top:3rem;
+	padding-left:1.2rem;
+}
+.col3{
+width:50%;	
+}
+.hp{
+
+	text-align:center;
+}
+.hp p{
+	padding-top:1rem;
+	color:grey;
+}
+.inp{
+	display:flex;
+	gap:10%;
+	padding-top:20px;
+}
+.hp h3{
+	color:grey;
+}
+.inp1{
+	display:flex;
+	gap:10%;
+}
+.icon i{
+	font-size:30px;
+	color:#70b9b0;
+}
+.icon{
+	padding-top:0.5rem;
+}
+.email{
+	padding-top:1rem;
+}
+.subject{
+	padding-top:1rem;
+}
+.textarea{
+	padding-top:1rem;
+}
+ textarea{
+	height:50%;
+	width:100%;
+}
+.name input{
+	width:100%;
+	padding:15px;
+}
+.email input{
+	width:100%;
+		padding:15px;
+}
+.subject input{
+	width:100%;
+		padding:15px;
+}
+
+.button{
+	text-align:center;
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+.button a{
+	text-decoration:none;
+	color:white;
+	background-color:#70b9b0;
+	padding:10px 20px;
+	border-radius:5px;
+}
+.card h1{
+	font-size:40px;
+	color:#70b9b0;
+
+}
+.card p{
+	line-height:1.5rem;
+	color:grey;
+
+}
+.hp h1{
+	padding-top:3rem;
+}
+.first-icon{
+	display:flex;
+	padding-top:20px;
+	gap:2%;
+}
+.first-icon i{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#70b9b0;
+	background-color:white;
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	font-size:20px;
+	border:1px solid #70b9b0;
+}
+.first-icon i:hover{
+	background-color:#70b9b0;
+	color:white;
+}
+@media(min-width:320px){
+		.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col1{
+	width:100%;
+}
+.col2{
+	width:100%;
+}
+.col3{
+width:100%;	
+}
+.name{
+	width:100%
+}
+
+.name input{
+	width:100%;
+	padding:15px;
+}
+.email input{
+	width:100%;
+		padding:15px;
+}
+.subject input{
+	width:100%;
+		padding:15px;
+}
+textarea{
+	
+	width:100%;
+}
+}
+@media(min-width:720px){
+		.row{
+	display:flex;
+}
+.col1{
+	width:30%;
+}
+.col2{
+	width:20%;
+}
+.col3{
+width:50%;	
+}
+.name input{
+	width:100%;
+	padding:15px;
+}
+.email input{
+	width:100%;
+		padding:15px;
+}
+.subject input{
+	width:100%;
+		padding:15px;
+}
+textarea{
+
+	width:100%;
+}
+}
+@media(min-width:1020px){
+	.row{
+	display:flex;
+}
+.col1{
+	width:30%;
+}
+.col2{
+	width:20%;
+}
+.col3{
+width:50%;	
+}
+.name input{
+	width:100%;
+	padding:15px;
+}
+.email input{
+	width:100%;
+		padding:15px;
+}
+.subject input{
+	width:100%;
+		padding:15px;
+}
+textarea{
+	
+	width:100%;
+}
+}
+
